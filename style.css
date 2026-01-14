@@ -1,0 +1,529 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+
+}
+
+.container {
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    background-color: #303179;
+    height: 90px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    border: 1px solid wheat;
+
+}
+
+.navbar ul {
+
+    display: flex;
+    gap: 50px;
+    list-style-type: none;
+    align-items: center;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+
+}
+
+.navbar li a:hover {
+    text-decoration: underline;
+}
+
+.navbar button {
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+
+}
+
+.navbar h1 {
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.first-secation {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: start;
+    width: 100%;
+    height: 70vh;
+    background-color: #fae5df;
+}
+
+.first-secation-image img {
+    border-radius: 500px;
+}
+
+.first-secation p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 10px;
+}
+
+.text-part h1 {
+    margin: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.new-button button {
+    margin: 10px;
+    padding: 15px;
+    border-radius: 30px;
+    background-color: #303179;
+    color: white;
+}
+
+.course1 {
+    width: 238px;
+    height: 288px;
+    background-color: #fae5df;
+    margin: 30px;
+    text-align: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 7px 5px 10px ;
+}
+
+.container-handler {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.course1 img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    background-size: cover;
+
+}
+.course1 h5{
+    margin: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.second-saction-part{
+    width: 100%;
+    background-color: #ed7966;
+    padding: 40px;
+}
+.heading-text h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    margin: 10px;
+
+}
+.heading-text p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 10px;
+}
+.heading-text{
+    text-align: start;
+}
+.third-secation-part{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 70vh;
+    background-color: #fae5df;
+}
+.promotion-text-part{
+    text-align:start;
+}
+.promotion-text-part h2{
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.promotion-text-part p{
+    margin: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.image-part img{
+    border-radius: 30px;
+    box-shadow: 7px 5px 10px ;
+}
+.fourt-secation-techer{
+    width: 100%;
+    height: 100vh;
+    background-color: #ed7966;
+}
+.box1{
+    width: 328px;
+    height: 500px;
+    background-color: #f5cac2;
+    margin: 10px;
+}
+.price-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+
+}
+.video-call-part{
+    width: 100%;
+    height: 90vh;
+    background-color: #fae5df;
+}
+.vdimg1 {
+    width: 508px;
+    height: 378px;
+    background-color: #fff;
+    margin: 20px;
+    align-items: center;
+    text-align: center;
+    border: 2px solid;
+    border-radius: 90px;
+        box-shadow: 7px 5px 10px ;
+
+}
+.image-video{
+    display: flex;
+    justify-content: center;
+
+}
+.vdimg1 img{
+    object-fit: cover;
+    width: 300px;
+    height: 200px;
+    border-radius: 90px;
+    padding: 20px  40px ;
+        box-shadow: 4px 3px 9px ;
+
+}
+.enter-email{
+    width: 100%;
+    height: 40vh;
+    text-align: center;
+    padding: 50px;
+    background-color: #ed7966;
+    line-height: 2.5rem;
+}
+.text-email h1{
+    text-align:center;
+}
+.emial-inputs-box input{
+     width: 300px;
+     height: 50px;
+     border-radius: 20px;
+     text-align: center;
+}
+.vdimg1 h5{
+    margin: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+footer{
+    text-align: center;
+    width: 100%;
+    height: 5vh;
+    padding: 30px;
+    background-color: #303179;
+}
+.second-saction-part{
+    padding: 60px 80px;
+    text-align: center;
+}
+
+.heading-text h1{
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.heading-text p{
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Course Cards */
+.course-container{
+    margin-top: 40px;
+}
+
+.container-handler{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 25px;
+}
+
+.course1{
+    background: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    transition: 0.3s;
+    position: relative;
+}
+
+.course1:hover{
+    transform: translateY(-10px);
+}
+
+.course1 img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* small badge image */
+.course1::after{
+    content: "⭐ Popular";
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: #ff9800;
+    color: #fff;
+    font-size: 12px;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.course1 h5{
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+/* ================= THIRD SECTION ================= */
+
+.third-secation-part{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px;
+    gap: 50px;
+}
+
+.image-part img{
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+}
+
+.promotion-text-part h2{
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.promotion-text-part p{
+    color: #555;
+    line-height: 1.6;
+}
+
+/* ================= PRICING SECTION ================= */
+
+.fourt-secation-techer{
+    padding: 80px;
+    text-align: center;
+}
+
+.price h2{
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.price p{
+    color: #555;
+}
+
+.price-box{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
+
+
+.box1{
+    background: #fff;
+    padding: 20px 17px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    transition: 0.3s;
+    height: 320px;
+    overflow: hidden;
+
+}
+
+.box1:hover{
+    transform: scale(1.05);
+    background: #1e1e2f;
+    color: #fff;
+}
+
+.box1 i{
+    font-size: 35px;
+    color: #ff9800;
+}
+
+.box1 h2{
+    margin: 15px 0;
+}
+
+.box1 h4{
+    font-size: 28px;
+    margin: 10px 0;
+    color: #ff9800;
+}
+
+/* Benefits */
+.box1 ul{
+    list-style: none;
+    margin-top: 15px;
+}
+
+.box1 ul li{
+    margin: 8px 0;
+    font-size: 14px;
+}
+
+
+@media(max-width:1000px){
+    .container-handler,
+    .price-box{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .third-secation-part{
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media(max-width:600px){
+    .container-handler,
+    .price-box{
+        grid-template-columns: 1fr;
+    }
+
+    .second-saction-part,
+    .third-secation-part,
+    .fourt-secation-techer{
+        padding: 40px 20px;
+    }
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.container{
+    overflow-x: hidden;
+}
+
+@media(max-width:900px){
+    .navbar{
+        flex-direction: column;
+        height: auto;
+        padding: 15px;
+    }
+
+    .navbar ul{
+        flex-direction: column;
+        gap: 15px;
+        margin-top: 10px;
+    }
+}
+@media(max-width:900px){
+    .first-secation{
+        flex-direction: column;
+        height: auto;
+        padding: 40px 20px;
+        text-align: center;
+    }
+
+    .first-secation-image img{
+        width: 250px;
+        margin-top: 20px;
+    }
+}
+@media(max-width:1000px){
+    .container-handler{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media(max-width:600px){
+    .container-handler{
+        grid-template-columns: 1fr;
+    }
+
+    .course1{
+        margin: auto;
+    }
+}
+@media(max-width:900px){
+    .third-secation-part{
+        flex-direction: column;
+        height: auto;
+        padding: 40px 20px;
+        text-align: center;
+    }
+
+    .promotion-text-part{
+        text-align: center;
+    }
+
+    .image-part img{
+        width: 280px;
+        margin-bottom: 20px;
+    }
+}
+@media(max-width:1000px){
+    .price-box{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media(max-width:600px){
+    .price-box{
+        grid-template-columns: 1fr;
+    }
+
+    .box1{
+        height: auto;
+    }
+}
+@media(max-width:900px){
+    .image-video{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .vdimg1{
+        width: 90%;
+        height: auto;
+        border-radius: 30px;
+    }
+
+    .vdimg1 img{
+        width: 90%;
+        height: auto;
+    }
+}
+@media(max-width:600px){
+    .enter-email{
+        height: auto;
+        padding: 30px 15px;
+    }
+
+    .emial-inputs-box input{
+        width: 90%;
+    }
+}
